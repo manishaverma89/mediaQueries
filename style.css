@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+       background-color: black;
+       color:white;
+       overflow: hidden;
+}
+
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 5px 25px;
+    font-size: 30px;
+    
+}
+
+.heading-big{
+    padding-top: 40px;
+    color:deeppink;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+h3{
+    color:crimson;
+    padding:20px 10px;
+    text-align: center;
+}
+
+
+
+.container{
+    color: black;
+    background-color:#ffff004b;
+    max-width: 90%;
+    margin:auto;
+    text-align:center;
+   
+}
+
+
+
+/* CSS for Boxes */
+
+.boxes{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto  auto;
+    /* grid-template-columns: 200px 200px 200px 200px 200px 200px; */
+    /* grid-row-gap:20px;
+    grid-column-gap:90px; */
+    /* justify-content:center;   */
+    justify-content: space-evenly;
+    
+    /* grid-gap: 10px; */
+    height:250px;
+    width:90%;
+    background-color: rgba(255, 222, 173, 0.384); 
+    margin: 40px auto; 
+    
+}
+.col-1{
+    margin-top: 50px;
+}
+
+.box{
+    height:150px;
+    width:150px;
+    background-color: aqua;
+}
+
+/* CSS for catagories */
+
+.catagories{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    height:250px;
+    width:90%;
+    background-color: rgba(169, 169, 169, 0.096);
+    color: white;
+    margin: 40px auto;
+}
+.tags{
+   height:160px;
+   width:400px;
+   background-color: darkgrey;
+}
+
+
+
+
+/* MEDIA QUERY for all mobiles */
+
+@media only screen and (max-width: 653px) {
+    
+      .container{
+          background-color: blue;
+          color:white
+      }
+    .heading-big{
+        color:green;
+        font-size: 25px;
+         text-align: center;
+         padding: 15px 50px;
+    }
+    h3{
+        color:red;
+        font-size: 18px;
+        /* display: none; */
+    }
+    li{
+        
+        width: 100%;
+        /* text-align: center; */
+        font-size: 20px;
+        
+    }
+  
+    /* MEDIA QUERY for boxes in all mobiles */
+   
+   
+    .boxes{
+        /* display:grid; */
+        grid-template-columns: auto auto;
+        /* grid-template-columns: 200px 200px; */
+        /* grid-row-gap:20px;
+        grid-column-gap:90px; */
+        /* justify-content:center;   */
+        justify-content: space-evenly;
+        
+        /* grid-gap: 10px; */
+        height:650px;
+        width:90%;
+        /* background-color: rgba(255, 222, 173, 0.548);  */
+        margin: 20px auto; 
+        
+    }
+    .box{
+        height:120px;
+        width:120px;
+        background-color: chartreuse;
+    }
+
+    /* MEDIA QUERIES for catagories */
+
+.catagories{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    height:550px;
+    width:90%;
+    background-color: rgba(169, 169, 169, 0.096);
+    color: white;
+    margin: 40px auto;
+}
+.tags{
+   height:160px;
+   width:400px;
+   background-color: rgb(94, 5, 5);
+}
+
+}
+    
+  /* MEDIA QUERY for Tablet */
+
+  @media only screen and (min-width: 651px) and (max-width:1024px) {
+   
+    .container{
+         background-color: red;
+         color:white;
+     }
+    .heading-big{
+        color:orchid;
+        font-size:30px;
+        text-align: center;
+
+    }
+    h3{
+        color:turquoise;
+        font-size: 18px;
+        padding:25px 20px;
+    }
+    li{
+        padding:3px 15px;
+        font-size: 25px;
+    }
+    
+     /* MEDIA QUERY for boxes in tablet */
+   
+   
+     .boxes{
+        /* display:grid; */
+        grid-template-columns: auto auto auto;
+        /* grid-template-columns: 200px 200px 200px; */
+        /* grid-row-gap:20px;
+        grid-column-gap:90px; */
+        /* justify-content:center;   */
+        justify-content: space-evenly;
+        
+        /* grid-gap: 10px; */
+        height:450px;
+        width:90%;
+        /* background-color: rgba(255, 222, 173, 0.548);  */
+        margin: 20px auto; 
+        
+    }
+    .box{
+        height:150px;
+        width:150px;
+        background-color: lightcoral;
+    }
+        /* MEDIA QUERIES for catagories */
+
+.catagories{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    height:550px;
+    width:90%;
+    background-color: rgba(169, 169, 169, 0.096);
+    color: white;
+    margin: 40px auto;
+}
+.tags{
+   height:160px;
+   width:500px;
+   background-color: rgb(94, 5, 5);
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
